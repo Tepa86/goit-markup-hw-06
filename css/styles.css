@@ -261,7 +261,8 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .personal-list {
 display: flex;
-gap: 24px;
+flex-wrap: wrap;
+gap: 72px;
 
 }
 .personal-title {
@@ -272,11 +273,13 @@ gap: 24px;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+    margin-top: 96px;
 
 }
 .personal-backgraund {
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 72px) / 4);
+    /* flex-basis: calc((100% - 72px) / 4); */
+    flex-basis: 100%;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -422,6 +425,7 @@ margin-bottom: 48px;
 /* FOOTER */
 .footer-conteiner {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
 
 }
@@ -432,10 +436,13 @@ margin-bottom: 48px;
     max-width: 264px;
 }
 .footer-logo-conteiner{
-    margin-right: 120px;
+    /* margin-right: 120px; */
+    margin-bottom: 72px;
 
 }
 .footer-backgraund {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #2e2f42;
     padding: 100px 0;
 }
@@ -448,8 +455,9 @@ margin-bottom: 48px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
-    display: inline-block;
+    display: flex;
     margin-bottom: 16px;
+    justify-content: center;
 
 }
 
@@ -463,6 +471,9 @@ margin-bottom: 48px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
+.footer-sosial-cont {
+    margin: 0 auto;
+}
 .footer-social-text {
     font-weight: 500;
     font-size: 16px;
@@ -470,15 +481,20 @@ margin-bottom: 48px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    text-align: center;
 
 }
 .footer-social-icons {
     display: flex;
+    justify-content: center;
     gap: 16px;
+    
+    
 }
 .footer-social-icons-li {
     width: 40px;
     height: 40px;
+    margin-bottom: 72px;
 }
 .footer-linc {
     width: 100%;
@@ -506,10 +522,14 @@ margin-bottom: 48px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+    text-align: center;
 }
+/* chenge */
 .form-email {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap; 
+    gap: 16px;
+    justify-content: center;
 }
 .form-input {
     width: 264px;

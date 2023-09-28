@@ -14,10 +14,35 @@
         max-width: 768px;
     }
         .portfolio-list-content {
-            flex-basis: calc((100% - 24px) / 2);  ;
+            flex-basis: calc((100% - 24px) / 2);  
             }
         .portfolio-list {
         gap: 16px;
+        }
+                .personal-backgraund {
+                    flex-basis: calc((100% - 24px) / 2);
+                    max-width: 264px;
+                    
+                    }
+                    .personal-list {
+                    gap: 64px 24px;
+                    justify-content: center;
+                                        }
+        .logo-footer {
+            display: inline-block;
+        }
+                .footer-social-text {
+                    text-align: left;
+                }
+           .footer-sosial-cont {
+            margin-left: 24px;
+           }
+                   .form-text {
+                    text-align: left;
+                   }
+        .footer-form-conteiner {
+            margin-right: auto;
+            margin-left: 0;
         }
 }
 
@@ -31,7 +56,21 @@
             flex-basis: calc((100% - 48px) / 3);
             
         }
-                .portfolio-list {
-                    gap: 48px 24px;
-                }
+    .portfolio-list {
+     gap: 48px 24px;
+        }
+   .personal-backgraund {
+     flex-basis: calc((100% - 72px) / 4);
+     }
+                
+    .personal-list {
+    gap: 24px;
+    justify-content: center;
+     }
+           .footer-form-conteiner {
+            margin-right: 0;
+           }
+    .footer-sosial-cont {
+     margin-left: 120px;
+    }
 }
