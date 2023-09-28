@@ -160,7 +160,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .herosection {
 background-color: #2E2F42;
 padding: 188px 0;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleofficemob.jpg);
 max-width: 1440px;
 background-repeat: no-repeat;
 background-position: center;
@@ -171,7 +171,7 @@ margin: 0 auto;
 .herotitle {
     color: #FFF;
         text-align: center;
-        font-size: 56px;
+        font-size: 36px;
         font-style: normal;
         font-weight: 700;
         line-height: 1.07;
@@ -193,7 +193,7 @@ margin: 0 auto;
     border: none;
     display: block;
     border-radius: 4px;
-    margin-top: 48px;
+    margin-top: 72px;
   margin-right: auto;
   margin-left: auto;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -208,6 +208,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .herobutton:focus {
     background-color: #404BBF;
 }
+/* tehnology */
 .tehnologysection {
     background: #FFF;
     padding: 120px 0;
@@ -232,26 +233,33 @@ border-radius: 4px;
 margin-bottom: 8px;
 align-items: center;
 justify-content: center;
+display: none;
 }
 .tehnology-list{
 display: flex;
+flex-wrap: wrap;
 gap: 24px;
 }
 .tehnology-list-content {
-flex-basis: calc((100% - 3 * 24px) / 4);
+/* flex-basis: calc((100% - 3 * 24px) / 4); */
+flex-basis: 100%;
 
 }
 .tehnology_title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    text-align: center;
 } 
 .tehnology_text {
+    font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
 }
 /* END OF TEHNOLOGY section */
 /* Start Personal sec */

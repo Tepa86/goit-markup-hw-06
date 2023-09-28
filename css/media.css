@@ -44,6 +44,23 @@
             margin-right: auto;
             margin-left: 0;
         }
+   .tehnology-list-content {
+    flex-basis: calc((100% - 24px) / 2);
+   }
+   .tehnology_title {
+    text-align: left;
+   }
+   .herotitle {
+       font-size: 56px;
+   }
+
+   .herobutton {
+       margin-top: 36px;
+   }
+
+   .herosection {
+       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/pipleofiseplanshet.jpg);
+   }
 }
 
 @media screen and (min-width: 1158px) {
@@ -73,4 +90,26 @@
     .footer-sosial-cont {
      margin-left: 120px;
     }
+        .texnology-icons-cont {
+            display: grid;
+        }
+         .tehnology-list-content {
+            flex-basis: calc((100% - 3 * 24px) / 4);
+         }
+   .tehnology_title {
+    font-weight: 500;
+        font-size: 20px;
+   }
+   .tehnology_text {
+    font-size: 16px;
+        font-weight: 400;
+   }
+   .herobutton {
+       margin-top: 48px;
+   }
+
+   .herosection {
+       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
+   }
+   
 }
