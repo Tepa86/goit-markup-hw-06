@@ -73,8 +73,12 @@
    .heder-menu-button {
        display: none;
    }
+   .curent::after {
+    background-color: #FFF;
+   }
 
 }
+
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -128,6 +132,9 @@
     gap: 40px;
     flex-direction: row;
 }
+  .curent::after {
+      background-color: #404bbf;
+  }
    
 }
  @media screen and (max-width: 767.98px) {
@@ -138,4 +145,27 @@
      .nav-list {
          display: none;
      }
+       
  }
+
+ @media only screen and (min-resolution: 192dpi) {
+     .herosection {
+         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mob-x2.jpg);
+         max-width: 320px;
+     }
+ }
+
+
+ @media only screen and (min-resolution: 192dpi) and (min-width: 768px)  {
+     .herosection {
+         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-planset-x2.jpg);
+         max-width: 768px;
+     }
+    }
+
+        @media only screen and (min-resolution: 192dpi) and (min-width: 1158px) {
+            .herosection {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-displey-x2.jpg);
+                max-width: 1158px;
+            }
+        }
