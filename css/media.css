@@ -66,6 +66,14 @@
     min-height: 584px;
     flex-shrink: 0;
    }
+   .adress-list {
+    gap: 12px;
+    flex-direction: column;
+   }
+   .heder-menu-button {
+       display: none;
+   }
+
 }
 
 @media screen and (min-width: 1158px) {
@@ -116,6 +124,18 @@
    .herosection {
        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
    }
-
+.adress-list {
+    gap: 40px;
+    flex-direction: row;
+}
    
 }
+ @media screen and (max-width: 767.98px) {
+     .adress {
+         display: none;
+     }
+
+     .nav-list {
+         display: none;
+     }
+ }
