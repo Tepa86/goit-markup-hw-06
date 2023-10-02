@@ -193,7 +193,7 @@ body {
 /* HERO SECTION */
 .herosection {
 background-color: #2E2F42;
-padding: 188px 0;
+padding: 72px 0;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleofficemob.jpg);
 max-width: 1440px;
 background-repeat: no-repeat;
@@ -291,8 +291,11 @@ gap: 24px;
 .tehnology-list-content {
 /* flex-basis: calc((100% - 3 * 24px) / 4); */
 flex-basis: 100%;
-
 }
+.tehnology-list-content:not(:last-child) {
+    margin-bottom: 72px;
+}
+
 .tehnology_title {
     font-weight: 700;
     font-size: 36px;
@@ -307,7 +310,6 @@ flex-basis: 100%;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 72px;
 }
 /* END OF TEHNOLOGY section */
 /* Start Personal sec */
@@ -329,7 +331,6 @@ gap: 72px;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    margin-top: 96px;
 
 }
 .personal-backgraund {
@@ -428,7 +429,7 @@ row-gap: 48px;
 /* width: calc((100% - 48px) / 3); */
 flex-basis: 100%;
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-margin-bottom: 48px;
+
 }
 
 
@@ -529,6 +530,7 @@ margin-bottom: 48px;
 }
 .footer-sosial-cont {
     margin: 0 auto;
+    margin-bottom: 72px;
 }
 .footer-social-text {
     font-weight: 500;
@@ -550,7 +552,7 @@ margin-bottom: 48px;
 .footer-social-icons-li {
     width: 40px;
     height: 40px;
-    margin-bottom: 72px;
+    
 }
 .footer-linc {
     width: 100%;
@@ -651,7 +653,7 @@ margin-bottom: 48px;
         0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 4px;
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);   
-        padding: 72px 24px 24px 24px;
+        padding: 72px 16px 24px 16px;
 }
 .modal-button-close {
     position: absolute;
@@ -782,6 +784,7 @@ margin-bottom: 48px;
        .privasi-link {
         color: #4d5ae5;
         text-decoration: underline;
+        margin-left: 16px;
        }
        .user-privacy-input:checked + .user-privacy-text .privasi-pl {
         background-color: #404bbf;

@@ -2,6 +2,9 @@
     .container {
         max-width: 320px;
     }
+    .personal-conteiner {
+        max-width: 296px;
+    }
 }
 
 
@@ -11,7 +14,7 @@
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
+        max-width: 584px;
     }
         .portfolio-list-content {
             flex-basis: calc((100% - 24px) / 2);  
@@ -43,6 +46,7 @@
         .footer-form-conteiner {
             margin-right: auto;
             margin-left: 0;
+            max-width: 584px;
         }
    .tehnology-list-content {
     flex-basis: calc((100% - 24px) / 2);
@@ -73,8 +77,12 @@
    .heder-menu-button {
        display: none;
    }
-   .curent::after {
-    background-color: #FFF;
+  
+   .privasi-link {
+    margin-left: 0;
+   }
+   .adresslisttext {
+    font-size: 12px;
    }
 
 }
@@ -132,8 +140,9 @@
     gap: 40px;
     flex-direction: row;
 }
-  .curent::after {
-      background-color: #404bbf;
+ 
+  .privasi-link {
+      margin-left: 0;
   }
    
 }
